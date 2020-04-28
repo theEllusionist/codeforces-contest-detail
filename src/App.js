@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar";
 import axios from 'axios';
 import Cards from "./Components/Card";
 import Pages from "./Components/Pages";
+import {BrowserRouter, Route,Switch} from "react-router-dom";
 
 class App extends React.Component{
     state={
@@ -19,7 +20,8 @@ class App extends React.Component{
                     return data.name.length<=83
                 })
                 this.setState({
-                    data:dataList,                    totalPosts:dataList.length
+                    data:dataList,
+                    totalPosts:dataList.length
                 });
             })
             .catch((error)=>{
@@ -48,6 +50,7 @@ class App extends React.Component{
                 return data.name.toLowerCase().includes(this.state.search.toLowerCase())
         })
         return(
+            <BrowserRouter>
             <div style={{backgroundColor:"#252422"}}>
                 <Navbar/>
                 <div className="row container">
@@ -55,20 +58,12 @@ class App extends React.Component{
                         <input type="text" onChange={this.onSearch} placeholder="Search..."/>
                     </div>
                 </div>
-                {/*<div className="container vertical-align" style={{marginLeft:80}}>*/}
-                {/*<h5 className="bold" >Current or Upcoming Contests</h5>*/}
-                {/*</div>*/}
                 <div style={{marginLeft:70,marginRight:70,marginTop:-50}}>
                     <Cards data={filteredData}/>
                 </div>
-                {/*<div className="container vertical-align" style={{marginLeft:80}}>*/}
-                {/*<h5 className="bold" >Past Contest</h5>*/}
-                {/*</div>*/}
-                {/*<div style={{marginLeft:70,marginRight:70,marginTop:-50}}>*/}
-                {/*    <CardPast data={filteredData}/>*/}
-                {/*</div>*/}
                 <Pages totalPages={totalPages} paginate={paginate}/>
             </div>
+            </BrowserRouter>
         )
     }
 }

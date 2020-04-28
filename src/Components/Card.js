@@ -3,8 +3,6 @@ import moment from "moment";
 
 class Cards extends React.Component{
     time_coverter =(num)=>{
-        // const days=Math.floor(num / 3600*24);
-        // num%=3600*24;
         const hours = Math.floor(num / 3600);
         num%=3600;
         const minutes = num % 60;
@@ -67,32 +65,20 @@ class Cards extends React.Component{
                                 </div>
                                 {(d.phase==="BEFORE"||d.phase==="CODING")&&
                                     <div className="row card-action" style={{marginTop:-26}} >
-                                    {/*<div className="col s2" style={{marginLeft:-10}}>*/}
-                                    {/*    <button className="waves-effect waves-light btn" style={{marginLeft:-15}} >Register</button>*/}
-                                    {/*</div>*/}
                                      <div className="col s12 push-s2" style={{marginTop:-10}}>
                                          <div className="col s12 pull-s3" style={{display:"inline"}}>
                                              <p className="condensed light s6">Until Coming <b>{this.relative_time(d.relativeTimeSeconds)}</b></p>
                                          </div>
-                                         {/*<div className="col s6 pull-s3" style={{display:"inline"}}>*/}
-                                         {/*    <p>{this.relative_time(d.relativeTimeSeconds)}</p>*/}
-                                         {/*</div>*/}
 
                                     </div>
                                 </div>
                                 }
                                 {(d.phase!=="BEFORE"&&d.phase!=="CODING")&&
                                 <div className="row card-action" style={{marginTop:-26}}>
-                                    {/*<div className="col s2" style={{marginLeft:-10}}>*/}
-                                    {/*    <button className="waves-effect waves-light btn" style={{marginLeft:-15}} >Results</button>*/}
-                                    {/*</div>*/}
                                      <div className="col s12 push-s2" style={{marginTop:-10}}>
                                          <div className="col s12 pull-s3" style={{display:"inline"}}>
                                              <p className="condensed light s6">Before Registeration <b>{this.relative_time(d.relativeTimeSeconds)}</b></p>
                                          </div>
-                                         {/*<div className="col s6 pull-s3" style={{display:"inline"}}>*/}
-                                         {/*    <p>{this.relative_time(d.relativeTimeSeconds)}</p>*/}
-                                         {/*</div>*/}
 
                                     </div>
                                 </div>
@@ -112,9 +98,7 @@ class Cards extends React.Component{
             <div>
 
                 <div className="row" style={{marginTop:50}} >
-                    {/*<div className="col s12">*/}
                         {dataList}
-                    {/*</div>*/}
                 </div>
             </div>
 )
