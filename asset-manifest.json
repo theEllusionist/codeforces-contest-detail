@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/theEllusionist/codeforces-contest-detail/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/theEllusionist/codeforces-contest-detail/static/js/main.b5e4f453.chunk.js",
-    "main.js.map": "/theEllusionist/codeforces-contest-detail/static/js/main.b5e4f453.chunk.js.map",
+    "main.js": "/theEllusionist/codeforces-contest-detail/static/js/main.f07aa28b.chunk.js",
+    "main.js.map": "/theEllusionist/codeforces-contest-detail/static/js/main.f07aa28b.chunk.js.map",
     "runtime-main.js": "/theEllusionist/codeforces-contest-detail/static/js/runtime-main.aa1c9080.js",
     "runtime-main.js.map": "/theEllusionist/codeforces-contest-detail/static/js/runtime-main.aa1c9080.js.map",
-    "static/js/2.992e03de.chunk.js": "/theEllusionist/codeforces-contest-detail/static/js/2.992e03de.chunk.js",
-    "static/js/2.992e03de.chunk.js.map": "/theEllusionist/codeforces-contest-detail/static/js/2.992e03de.chunk.js.map",
+    "static/js/2.2edead4a.chunk.js": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js",
+    "static/js/2.2edead4a.chunk.js.map": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js.map",
     "index.html": "/theEllusionist/codeforces-contest-detail/index.html",
-    "precache-manifest.76346ffb2a5811ee2cc3b3d16094cb71.js": "/theEllusionist/codeforces-contest-detail/precache-manifest.76346ffb2a5811ee2cc3b3d16094cb71.js",
+    "precache-manifest.a47f27d8b0b3a6e73c8f9f391ee89e08.js": "/theEllusionist/codeforces-contest-detail/precache-manifest.a47f27d8b0b3a6e73c8f9f391ee89e08.js",
     "service-worker.js": "/theEllusionist/codeforces-contest-detail/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/theEllusionist/codeforces-contest-detail/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.992e03de.chunk.js.LICENSE.txt": "/theEllusionist/codeforces-contest-detail/static/js/2.992e03de.chunk.js.LICENSE.txt"
+    "static/js/2.2edead4a.chunk.js.LICENSE.txt": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aa1c9080.js",
-    "static/js/2.992e03de.chunk.js",
+    "static/js/2.2edead4a.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.b5e4f453.chunk.js"
+    "static/js/main.f07aa28b.chunk.js"
   ]
 }

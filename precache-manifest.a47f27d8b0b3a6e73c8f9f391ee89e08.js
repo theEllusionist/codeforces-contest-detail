@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3b5bd1f7d274f659fe31097d3ef122c",
+    "revision": "401b892718ac07f695f5ea4559c0f9e2",
     "url": "/theEllusionist/codeforces-contest-detail/index.html"
   },
   {
-    "revision": "f5291f39f5e98a3e2b9e",
+    "revision": "7514f1976930353ee56d",
     "url": "/theEllusionist/codeforces-contest-detail/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "7c96812fd04be3ff1018",
-    "url": "/theEllusionist/codeforces-contest-detail/static/js/2.992e03de.chunk.js"
+    "revision": "a789cb37886870a80e7c",
+    "url": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/theEllusionist/codeforces-contest-detail/static/js/2.992e03de.chunk.js.LICENSE.txt"
+    "url": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5291f39f5e98a3e2b9e",
-    "url": "/theEllusionist/codeforces-contest-detail/static/js/main.b5e4f453.chunk.js"
+    "revision": "7514f1976930353ee56d",
+    "url": "/theEllusionist/codeforces-contest-detail/static/js/main.f07aa28b.chunk.js"
   },
   {
     "revision": "cb041e61225ae6d70ddb",
