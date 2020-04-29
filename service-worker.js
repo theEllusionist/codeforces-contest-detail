@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/theEllusionist/codeforces-contest-detail/precache-manifest.9402338e1fd75411625b24b12ece4367.js"
+  "/theEllusionist/codeforces-contest-detail/precache-manifest.f8d69f308e04e1b5ddc3f62e83b174b0.js"
 );
 
 self.addEventListener('message', (event) => {
