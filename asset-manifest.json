@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/theEllusionist/codeforces-contest-detail/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/theEllusionist/codeforces-contest-detail/static/js/main.d6a8e81a.chunk.js",
+    "main.js.map": "/theEllusionist/codeforces-contest-detail/static/js/main.d6a8e81a.chunk.js.map",
+    "runtime-main.js": "/theEllusionist/codeforces-contest-detail/static/js/runtime-main.aa1c9080.js",
+    "runtime-main.js.map": "/theEllusionist/codeforces-contest-detail/static/js/runtime-main.aa1c9080.js.map",
+    "static/js/2.2edead4a.chunk.js": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js",
+    "static/js/2.2edead4a.chunk.js.map": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js.map",
+    "index.html": "/theEllusionist/codeforces-contest-detail/index.html",
+    "precache-manifest.9402338e1fd75411625b24b12ece4367.js": "/theEllusionist/codeforces-contest-detail/precache-manifest.9402338e1fd75411625b24b12ece4367.js",
+    "service-worker.js": "/theEllusionist/codeforces-contest-detail/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/theEllusionist/codeforces-contest-detail/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.2edead4a.chunk.js.LICENSE.txt": "/theEllusionist/codeforces-contest-detail/static/js/2.2edead4a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa1c9080.js",
+    "static/js/2.2edead4a.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.d6a8e81a.chunk.js"
+  ]
+}
