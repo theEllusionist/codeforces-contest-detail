@@ -1,5 +1,5 @@
 import React from "react";
-import {Link,NavLink,withRouter} from "react-router-dom";
+import {Link} from "react-router-dom";
 const Pages =(props)=>{
     const PageNumber =[]
     for(let i=1;i<=props.totalPages;i++){

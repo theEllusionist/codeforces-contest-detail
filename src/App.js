@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import axios from 'axios';
 import Cards from "./Components/Card";
 import Pages from "./Components/Pages";
-import {BrowserRouter, Route,Switch} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 
 class App extends React.Component{
     state={
