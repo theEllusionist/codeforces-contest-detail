@@ -7,10 +7,10 @@ const Pages =(props)=>{
     }
     console.log(props.totalPages)
     return (
-    <div className="nav-wrapper row ">
+    <div className="nav-wrapper">
       <ul className='pagination center' style={{marginTop:10}}>
         {PageNumber.map(number => (
-          <li key={number} className='waves-effect' style={{background:"white"}}>
+          <li key={number} className='waves-effect ' style={{background:"white",margin:2}}>
               <Link onClick={()=>props.paginate(number)} className='page-link'to="/">{number}</Link>
           </li>
         ))}

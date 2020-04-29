@@ -58,10 +58,11 @@ class App extends React.Component{
                         <input type="text" onChange={this.onSearch} placeholder="Search..."/>
                     </div>
                 </div>
+                <Pages totalPages={totalPages} paginate={paginate}/>
                 <div style={{marginLeft:70,marginRight:70,marginTop:-50}}>
                     <Cards data={filteredData}/>
                 </div>
-                <Pages totalPages={totalPages} paginate={paginate}/>
+
             </div>
             </BrowserRouter>
         )
